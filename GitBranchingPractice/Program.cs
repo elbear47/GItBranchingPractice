@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using GitBranchingPractice;
+
 Console.WriteLine("Hello, Elber!");
 
+Airplane airplane = new Airplane();
+
+airplane.NumOfWings = 10;
+
+Console.WriteLine(airplane.NumOfWings);
