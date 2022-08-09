@@ -8,9 +8,10 @@ namespace GitBranchingPractice
 		}
 
         public string Name { get; set; }
+        public string Manufacturer { get; set; }
 
 
-		public virtual void Go() // giving inheritors option to override
+        public virtual void Go() // giving inheritors option to override
         {
             Console.WriteLine("Go");
         }
